@@ -43,22 +43,22 @@ print("\nSubstraction of var1 and var2 is ", var1 - var2)
         # 7. bytearray
 
     
-var3 = 58	# Integer(int)
+var3 = 58	                        # Integer(int)
 print("\nThe type of var3 is", type(var3))
 
-var4 = 51.65	# Float(float)
+var4 = 51.65	                    # Float(float)
 print("\nThe type of var4 is", type(var4))
 
-var5 = 2 + 7j	# Complex no.(complex)
+var5 = 2 + 7j	                    # Complex no.(complex)
 print("\nThe type of var5 is", type(var5))
 
-var6 = True    # Boolean(bool)
+var6 = True                         # Boolean(bool)
 print("\nThe type of var6 is", type(var6))
 
 var7 = "Hello frands chai pi lo"	# String(str)
 print("\nThe type of var7 is", type(var7))
 
-var8 = b"python"	#Bytes(byte)
+var8 = b"python"                	#Bytes(byte)
 print("\nThe type of var8 is", type(var8))
 
 # to check the type of data stored in the variable we use:-
