@@ -115,12 +115,12 @@ var7 = 47
 var8 = 62
 var9 = 31
 
-print(var7>var8 and var9<var8)
-#    (_________)   (_________)
-#         |                  \
-#         |                    \
-#1. First this will get solved   \
-#(this portion will result false)  \
+print(var7 > var8 and var9 < var8)
+#    (___________)   (___________)
+#         |                      \
+#         |                       \
+#1. First this will get solved     \
+#(this portion will result false)   \
 #                                    \
 #                       2. Then this will get solved
 #                       (this portion will result true)
@@ -136,13 +136,13 @@ print(var7>var8 and var9<var8)
     # false or false = false
     # false or true = true
 
-print(var7>var8 or var9<var8)
-#    (_________)  (_________)
-#         |                  \
-#         |                    \
-#1. First this will get solved   \
+print(var7 > var8 or var9 < var8)
+#    (___________)  (___________)
+#         |                     \
+#         |                      \
+#1. First this will get solved    \
 #(this portion will result false)  \
-#                                    \
+#                                   \
 #                       2. Then this will get solved
 #                       (this portion will result true)
 #
@@ -152,5 +152,5 @@ print(var7>var8 or var9<var8)
 # not
     # It reverse the boolean value of any comparision operations
 
-print(not(var7>var8))
+print(not(var7 > var8))
 # (var7 > var8) will result false but the 'not' operator will the reverse the output to true
