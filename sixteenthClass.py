@@ -1,6 +1,10 @@
 ## Date - 12/01/2023
 
+
+
+
     ### List Comprehension
+
 
 li1 = [1, 2, 3, 4, 5, 6]
 
@@ -12,6 +16,7 @@ li2 = [ x**2  for x in li1 ]
 #                   Loop
 
 print(li2)
+
 
     # if statement
 
@@ -32,6 +37,7 @@ print(li3)
 li4 = [ x**2  if x <= 3  else x**3  for x in li1 ]
 print(li4)
 
+
     # nested for loop
 
 li5 = [[1, 2, 3], [4, 5, 6]]
@@ -42,10 +48,14 @@ print(li6)
 li7 = [ [ y**2  for y in x ]  for x in li5 ]
 print(li7)
 
+
 # 3 * 4 * 6   '*' 3D list-
 
 li8 = [ [ [ "*"  for x in range(6) ]  for x in range(4) ]  for x in range(3) ]
 print(li8)
+
+
+
 
 
     ### Dictionary Comprehension
